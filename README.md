@@ -1,1 +1,1 @@
-# itca
+# Information Technology Community Association
