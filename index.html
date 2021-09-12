@@ -8,6 +8,9 @@
     
 
 
+  
+  <script defer src="/js/fuse.min.94c78ad70b02749822921660cf4e9f0b3701bc0680c421afb784a78228de0275.js"></script>
+
 
 
 <script src="/js/enquire.min.dfb99dee1e029d51d6cfb672d847929890b1585402de17f5ed092edd72a688b4.js"></script>
@@ -568,7 +571,7 @@
     
     var enableSearchHighlight = JSON.parse("true");
     
-    var enableSearch = JSON.parse("false");
+    var enableSearch = JSON.parse("true");
 
     var fuse = null;
 
@@ -1255,9 +1258,38 @@
         <div class="grow"></div>
         <div id="siteSearch">
           
+
+<div class="search" data-bgimg="false">
+  <span class="icon">
+    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path d="M15.5 14h-.79l-.28-.27c1.2-1.4 1.82-3.31 1.48-5.34-.47-2.78-2.79-5-5.59-5.34-4.23-.52-7.79 3.04-7.27 7.27.34 2.8 2.56 5.12 5.34 5.59 2.03.34 3.94-.28 5.34-1.48l.27.28v.79l4.25 4.25c.41.41 1.08.41 1.49 0 .41-.41.41-1.08 0-1.49L15.5 14zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+  </span>
+  <input id="search" aria-label="Site Search" class="input" type="text" autocomplete="off" placeholder="Search">
+  <div id="search-results" class="dropdown">
+    <div id="search-menu" class="dropdown-menu">
+    </div>
+  </div>
+</div>
+
+
         </div>
         <div id="mobileSearch" class="hide">
           
+<div id="mobileSearchBtn" class="mobile-search__btn">
+  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path d="M15.5 14h-.79l-.28-.27c1.2-1.4 1.82-3.31 1.48-5.34-.47-2.78-2.79-5-5.59-5.34-4.23-.52-7.79 3.04-7.27 7.27.34 2.8 2.56 5.12 5.34 5.59 2.03.34 3.94-.28 5.34-1.48l.27.28v.79l4.25 4.25c.41.41 1.08.41 1.49 0 .41-.41.41-1.08 0-1.49L15.5 14zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+</div>
+
+<div id="search-mobile-container" class="mobile-search hide">
+  <div class="mobile-search__top">
+    <input id="search-mobile" type="text" aria-label="Mobile Search" placeholder="Search..." class="mobile-search__top--input"/>
+    <div id="search-mobile-close" class="mobile-search__top--icon">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path opacity=".87" fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm3.59-13L12 10.59 8.41 7 7 8.41 10.59 12 7 15.59 8.41 17 12 13.41 15.59 17 17 15.59 13.41 12 17 8.41z"/></svg>
+    </div>
+  </div>
+  <div id="search-mobile-results" class="mobile-search__body">
+    
+  </div>
+</div>
+
         </div>
         <div class="navbar__icons">
   
@@ -1411,10 +1443,10 @@
     
     <header class="section__card--header">
       
-        <h2 class="section__card--title" style="font-size:32px; color:#fff;">我们的优势</h2>
+        <h2 class="section__card--title" style="font-size:32px; color:#fff;">Advantages</h2>
       
       
-        <div class="section__highlight" style="width: 190px; background-color: DarkKhaki;"></div>
+        <div class="section__highlight" style="width: 225px; background-color: DarkKhaki;"></div>
       
     </header>
   
@@ -1436,6 +1468,10 @@
               </div>
             
             
+              <div class="section__card--content" style="color: white;">
+                信息是一门实践学科
+              </div>
+            
             
           </div>
         </div>
@@ -1454,6 +1490,10 @@
               </div>
             
             
+              <div class="section__card--content" style="color: white;">
+                我们需要你的创意
+              </div>
+            
             
           </div>
         </div>
@@ -1471,6 +1511,10 @@
                 交流协作
               </div>
             
+            
+              <div class="section__card--content" style="color: white;">
+                众人拾柴火焰高
+              </div>
             
             
           </div>
@@ -1501,7 +1545,7 @@
     </div>
   </section>
 
-  <section style="background-color: #006699;">
+  <section style="background-color: DarkSlateBlue;">
     <div class="divider">
       <div class="lmr">
         
@@ -1512,7 +1556,7 @@
     
     <header class="section__card--header">
       
-        <h2 class="section__card--title" style="font-size:32px; color:#fff;">加入我们</h2>
+        <h2 class="section__card--title" style="font-size:32px; color:#fff;">Join Us</h2>
       
       
         <div class="section__highlight" style="width: 160px; background-color: DarkKhaki;"></div>
@@ -1525,7 +1569,7 @@
       
         
           <div class="section__normal--img-wrapper" data-position="left">
-            <img data-src="/team.svg" alt="QQ 群：&lt;a style=&#39;color:#99CCFF!important&#39; target=&#34;_blank&#34; href=&#34;https://qm.qq.com/cgi-bin/qm/qr?k=AEgyiGus4_xy3ytT6e7FaIhRU_N6NZ9v&amp;jump_from=webapi&#34;&gt;935350234&lt;/a&gt;&lt;/br&gt;&lt;font style=&#39;float:right;font-size:18px!important;font-weight:normal!important&#39;&gt;（单击链接进入群聊）&lt;/font&gt;" src="data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='none' d='M0 0h24v24H0V0z'/%3E%3Cpath fill='%23aaa' d='M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1zm-4.44-6.19l-2.35 3.02-1.56-1.88c-.2-.25-.58-.24-.78.01l-1.74 2.23c-.26.33-.02.81.39.81h8.98c.41 0 .65-.47.4-.8l-2.55-3.39c-.19-.26-.59-.26-.79 0z'/%3E%3C/svg%3E" class="lazyload section__normal--img"/>
+            <img data-src="/team.svg" alt="QQ 群：&lt;a style=&#39;color:#99CCFF!important&#39; target=&#34;_blank&#34; href=&#34;https://qm.qq.com/cgi-bin/qm/qr?k=AEgyiGus4_xy3ytT6e7FaIhRU_N6NZ9v&amp;jump_from=webapi&#34;&gt;935350234&lt;/a&gt;" src="data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='none' d='M0 0h24v24H0V0z'/%3E%3Cpath fill='%23aaa' d='M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1zm-4.44-6.19l-2.35 3.02-1.56-1.88c-.2-.25-.58-.24-.78.01l-1.74 2.23c-.26.33-.02.81.39.81h8.98c.41 0 .65-.47.4-.8l-2.55-3.39c-.19-.26-.59-.26-.79 0z'/%3E%3C/svg%3E" class="lazyload section__normal--img"/>
           </div>
         
       
@@ -1533,9 +1577,13 @@
       <div>
         
           <div class="section__normal--subtitle" style="font-size:28px; color:white; text-align: left">
-            QQ 群：<a style='color:#99CCFF!important' target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=AEgyiGus4_xy3ytT6e7FaIhRU_N6NZ9v&jump_from=webapi">935350234</a></br><font style='float:right;font-size:18px!important;font-weight:normal!important'>（单击链接进入群聊）</font>
+            QQ 群：<a style='color:#99CCFF!important' target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=AEgyiGus4_xy3ytT6e7FaIhRU_N6NZ9v&jump_from=webapi">935350234</a>
           </div>
         
+        
+          <div class="section__normal--content" style="color: #fff;">
+            单击链接进入群聊
+          </div>
         
       </div>
 
