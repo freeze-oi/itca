@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MC 插件 on ITCA</title>
+    <link>https://itca.site/docs/2021/mc-%E6%8F%92%E4%BB%B6/</link>
+    <description>Recent content in MC 插件 on ITCA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+        <atom:link href="https://itca.site/docs/2021/mc-%E6%8F%92%E4%BB%B6/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>1 生成线算法</title>
+        <link>https://itca.site/docs/2021/mc-%E6%8F%92%E4%BB%B6/1-%E7%94%9F%E6%88%90%E7%BA%BF%E7%AE%97%E6%B3%95/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://itca.site/docs/2021/mc-%E6%8F%92%E4%BB%B6/1-%E7%94%9F%E6%88%90%E7%BA%BF%E7%AE%97%E6%B3%95/</guid>
+        <description>简介 本章讨论程序的设计思路（即算法），未涉及程序语言。 生成线算法是 MC 插件开发的基础，后续将在其之上开发魔法阵插件。 生成线算法 如何在 MC 中画一条</description>
+      </item>
+      
+    
+  </channel>
+</rss>
